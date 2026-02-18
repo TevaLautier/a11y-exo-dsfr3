@@ -1,7 +1,12 @@
 <form [formGroup]="form">
     <dsfr-form-input
       label="Nom"
-      name="nom"
       formControlName="nom"
     ></dsfr-form-input>
+
+    <dsfr-form-radio
+    label="Sexe"
+    formControlName="sexe"
+    [options]="sexeOptions()"
+  ></dsfr-form-radio>
   </form>
