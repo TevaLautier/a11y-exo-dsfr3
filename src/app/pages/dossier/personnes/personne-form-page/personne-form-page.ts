@@ -5,7 +5,7 @@ import { AutoErrorMessageDirective } from '../../../../ui/forms/auto-error-messa
 
 @Component({
   selector: 'app-personne-form-page',
-  imports: [DsfrFormInputComponent, ReactiveFormsModule,AutoErrorMessageDirective],  
+  imports: [DsfrFormInputComponent, ReactiveFormsModule],  
   templateUrl: './personne-form-page.html',
   styleUrl: './personne-form-page.css',
 })
