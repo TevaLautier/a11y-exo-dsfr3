@@ -1,0 +1,18 @@
+<dsfr-skiplinks [links]="skipLinks()"></dsfr-skiplinks>
+<dsfr-header
+  [artworkDirPath]="''"
+  [beta]="false"
+  [logo]="logo()"
+  [serviceTitle]="'Hello'"
+  [serviceTagline]="''"
+  [searchBar]="false"
+  [menu]="menu()"
+  [display]="false"
+  [headerToolsLinks]="[]"
+></dsfr-header>
+
+<main role="main" id="main"class=fr-container>
+  <router-outlet></router-outlet>
+</main>
+
+<dsfr-footer []></dsfr-footer>
