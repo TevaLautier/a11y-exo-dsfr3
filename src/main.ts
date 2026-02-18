@@ -26,18 +26,18 @@ export class App {
   menu = signal<DsfrHeaderMenuItem[]>([
     {
       label: 'Accueil',
-      link: '/'
+      routerLink: '/accueil'
     },
     {
       label: 'Dossiers',
-      link: '/dossiers/personne/add'
+      routerLink: '/dossiers/personne/add'
     }
   ]);
 
   skipLinks = signal<DsfrAnchorLink[]>([
     {
       label: 'Contenu',
-      link: '#main'
+      route: '#main'
     }
   ]);
 

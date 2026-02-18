@@ -1,1 +1,10 @@
 /* Add application styles & imports to this file! */
+.fr-text-spacing{
+    margin: var(--text-spacing);
+}
+
+
+dsfr-form-input{
+    display: block;
+    margin: var(--text-spacing);
+}
